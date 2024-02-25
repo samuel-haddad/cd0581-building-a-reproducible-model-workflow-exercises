@@ -1,0 +1,200 @@
+2024-02-24 18:39:23,765 INFO    StreamThr :1622 [internal.py:wandb_internal():86] W&B internal server running at pid: 1622, started at: 2024-02-24 18:39:23.762125
+2024-02-24 18:39:23,768 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: status
+2024-02-24 18:39:23,775 INFO    WriterThread:1622 [datastore.py:open_for_write():87] open: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/run-rtp1mgqa.wandb
+2024-02-24 18:39:23,778 DEBUG   SenderThread:1622 [sender.py:send():382] send: header
+2024-02-24 18:39:23,924 DEBUG   SenderThread:1622 [sender.py:send():382] send: run
+2024-02-24 18:39:24,449 INFO    SenderThread:1622 [dir_watcher.py:__init__():211] watching files in: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files
+2024-02-24 18:39:24,449 INFO    SenderThread:1622 [sender.py:_start_run_threads():1136] run started: rtp1mgqa with start time 1708810763.76272
+2024-02-24 18:39:24,468 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: check_version
+2024-02-24 18:39:24,469 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: check_version
+2024-02-24 18:39:24,626 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: run_start
+2024-02-24 18:39:24,671 DEBUG   HandlerThread:1622 [system_info.py:__init__():27] System info init
+2024-02-24 18:39:24,672 DEBUG   HandlerThread:1622 [system_info.py:__init__():42] System info init done
+2024-02-24 18:39:24,672 INFO    HandlerThread:1622 [system_monitor.py:start():194] Starting system monitor
+2024-02-24 18:39:24,672 INFO    SystemMonitor:1622 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-24 18:39:24,673 INFO    HandlerThread:1622 [system_monitor.py:probe():214] Collecting system info
+2024-02-24 18:39:24,674 INFO    SystemMonitor:1622 [interfaces.py:start():190] Started cpu monitoring
+2024-02-24 18:39:24,676 INFO    SystemMonitor:1622 [interfaces.py:start():190] Started disk monitoring
+2024-02-24 18:39:24,679 INFO    SystemMonitor:1622 [interfaces.py:start():190] Started gpu monitoring
+2024-02-24 18:39:24,681 INFO    SystemMonitor:1622 [interfaces.py:start():190] Started memory monitoring
+2024-02-24 18:39:24,682 INFO    SystemMonitor:1622 [interfaces.py:start():190] Started network monitoring
+2024-02-24 18:39:24,697 DEBUG   HandlerThread:1622 [system_info.py:probe():151] Probing system
+2024-02-24 18:39:24,712 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:24,713 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:24,792 DEBUG   HandlerThread:1622 [system_info.py:_probe_git():136] Probing git
+2024-02-24 18:39:24,930 DEBUG   HandlerThread:1622 [system_info.py:_probe_git():144] Probing git done
+2024-02-24 18:39:24,930 DEBUG   HandlerThread:1622 [system_info.py:probe():199] Probing system done
+2024-02-24 18:39:24,930 DEBUG   HandlerThread:1622 [system_monitor.py:probe():223] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.11.5', 'heartbeatAt': '2024-02-24T21:39:24.697452', 'startedAt': '2024-02-24T21:39:23.689024', 'docker': None, 'cuda': None, 'args': ('--input_file', 'D:OneDriveDesktopsamuel-haddadcd0581-building-a-reproducible-model-workflow-exerciseslesson-1-machine-learning-pipelinesexercisesexercise_1starterzen.txt', '--artifact_name', 'zen_of_python', '--artifact_type', 'text_file', '--artifact_description', '20 aphorisms about writing good python code'), 'state': 'running', 'program': '/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/upload_artifact.py', 'codePathLocal': 'upload_artifact.py', 'codePath': 'lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/upload_artifact.py', 'git': {'remote': 'git@github.com:udacity/cd0581-building-a-reproducible-model-workflow-exercises.git', 'commit': 'f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827'}, 'email': 'smachadd@gmail.com', 'root': '/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises', 'host': 'DESKTOP-F4NRFP3', 'username': 'haddadsm', 'executable': '/home/haddadsm/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3194.044999999999, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}, {'current': 3194.045, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 13.459434509277344}}, 'gpu': 'NVIDIA GeForce GTX 1050 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050 Ti', 'memory_total': 4294967296}], 'memory': {'total': 7.715152740478516}}
+2024-02-24 18:39:24,930 INFO    HandlerThread:1622 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-24 18:39:24,931 INFO    HandlerThread:1622 [system_monitor.py:probe():227] Publishing system info
+2024-02-24 18:39:24,931 DEBUG   HandlerThread:1622 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-24 18:39:25,454 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/conda-environment.yaml
+2024-02-24 18:39:26,716 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:26,717 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:28,721 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:28,722 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:30,725 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:30,726 ERROR   gpu       :1622 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-02-24 18:39:30,860 DEBUG   HandlerThread:1622 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-24 18:39:30,867 INFO    HandlerThread:1622 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-24 18:39:30,870 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:39:30,870 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-24 18:39:30,871 DEBUG   SenderThread:1622 [sender.py:send():382] send: files
+2024-02-24 18:39:30,871 INFO    SenderThread:1622 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-24 18:39:30,884 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-24 18:39:30,885 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:39:30,885 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: python_packages
+2024-02-24 18:39:30,887 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:39:30,897 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:39:31,143 DEBUG   SenderThread:1622 [sender.py:send():382] send: telemetry
+2024-02-24 18:39:31,148 DEBUG   SenderThread:1622 [sender.py:send():382] send: exit
+2024-02-24 18:39:31,148 INFO    SenderThread:1622 [sender.py:send_exit():589] handling exit code: 1
+2024-02-24 18:39:31,149 INFO    SenderThread:1622 [sender.py:send_exit():591] handling runtime: 6
+2024-02-24 18:39:31,156 INFO    SenderThread:1622 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-24 18:39:31,158 INFO    SenderThread:1622 [sender.py:send_exit():597] send defer
+2024-02-24 18:39:31,159 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,159 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-24 18:39:31,160 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,160 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-24 18:39:31,160 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 1
+2024-02-24 18:39:31,161 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,161 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-24 18:39:31,162 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,162 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-24 18:39:31,162 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 2
+2024-02-24 18:39:31,163 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,163 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-24 18:39:31,163 INFO    HandlerThread:1622 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-24 18:39:31,164 DEBUG   SystemMonitor:1622 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-24 18:39:31,164 INFO    HandlerThread:1622 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-24 18:39:31,165 DEBUG   SystemMonitor:1622 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-24 18:39:31,165 INFO    HandlerThread:1622 [interfaces.py:finish():202] Joined disk monitor
+2024-02-24 18:39:31,166 DEBUG   SystemMonitor:1622 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-24 18:39:31,172 ERROR   gpu       :1622 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-02-24 18:39:31,173 INFO    HandlerThread:1622 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-24 18:39:31,173 INFO    HandlerThread:1622 [interfaces.py:finish():202] Joined memory monitor
+2024-02-24 18:39:31,173 INFO    HandlerThread:1622 [interfaces.py:finish():202] Joined network monitor
+2024-02-24 18:39:31,174 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,174 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-24 18:39:31,175 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 3
+2024-02-24 18:39:31,175 DEBUG   SenderThread:1622 [sender.py:send():382] send: stats
+2024-02-24 18:39:31,175 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,176 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-24 18:39:31,176 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,177 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-24 18:39:31,177 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 4
+2024-02-24 18:39:31,177 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,178 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-24 18:39:31,178 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,178 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-24 18:39:31,179 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 5
+2024-02-24 18:39:31,179 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,179 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-24 18:39:31,180 DEBUG   SenderThread:1622 [sender.py:send():382] send: summary
+2024-02-24 18:39:31,185 INFO    SenderThread:1622 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-24 18:39:31,187 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,187 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-24 18:39:31,188 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 6
+2024-02-24 18:39:31,188 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,188 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-24 18:39:31,189 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,189 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-24 18:39:31,193 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:39:31,388 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 7
+2024-02-24 18:39:31,389 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:31,389 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-24 18:39:31,390 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:31,390 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-24 18:39:31,483 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/config.yaml
+2024-02-24 18:39:31,485 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/conda-environment.yaml
+2024-02-24 18:39:31,487 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/output.log
+2024-02-24 18:39:31,488 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/wandb-metadata.json
+2024-02-24 18:39:31,489 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/requirements.txt
+2024-02-24 18:39:31,491 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/wandb-summary.json
+2024-02-24 18:39:31,833 INFO    wandb-upload_0:1622 [upload_job.py:push():131] Uploaded file /tmp/tmp5d514bnuwandb/h79c45h1-wandb-metadata.json
+2024-02-24 18:39:31,941 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-24 18:39:33,183 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 8
+2024-02-24 18:39:33,183 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: poll_exit
+2024-02-24 18:39:33,183 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:33,184 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-24 18:39:33,185 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:33,185 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-24 18:39:33,185 INFO    SenderThread:1622 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-24 18:39:33,193 INFO    SenderThread:1622 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-24 18:39:33,214 INFO    SenderThread:1622 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-24 18:39:33,244 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 9
+2024-02-24 18:39:33,245 DEBUG   SenderThread:1622 [sender.py:send():382] send: artifact
+2024-02-24 18:39:33,245 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:33,247 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-24 18:39:33,506 INFO    Thread-12 :1622 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/output.log
+2024-02-24 18:39:33,942 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-24 18:39:34,153 INFO    SenderThread:1622 [sender.py:send_artifact():1494] sent artifact job-git_github.com_udacity_cd0581-building-a-reproducible-model..ning-pipelines_exercises_exercise_1_solution_upload_artifact.py - {'id': 'QXJ0aWZhY3Q6NzMwODY0MjIy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MjcyNzQ1Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzMwODY0MjIy', 'versionIndex': 0}}}
+2024-02-24 18:39:34,154 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:34,154 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-24 18:39:34,154 INFO    SenderThread:1622 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-24 18:39:34,537 INFO    SenderThread:1622 [dir_watcher.py:finish():388] scan: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files
+2024-02-24 18:39:34,540 INFO    SenderThread:1622 [dir_watcher.py:finish():402] scan save: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/conda-environment.yaml conda-environment.yaml
+2024-02-24 18:39:34,547 INFO    SenderThread:1622 [dir_watcher.py:finish():402] scan save: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/config.yaml config.yaml
+2024-02-24 18:39:34,556 INFO    SenderThread:1622 [dir_watcher.py:finish():402] scan save: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/output.log output.log
+2024-02-24 18:39:34,565 INFO    SenderThread:1622 [dir_watcher.py:finish():402] scan save: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/requirements.txt requirements.txt
+2024-02-24 18:39:34,575 INFO    SenderThread:1622 [dir_watcher.py:finish():402] scan save: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/wandb-metadata.json wandb-metadata.json
+2024-02-24 18:39:34,576 INFO    SenderThread:1622 [dir_watcher.py:finish():402] scan save: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/wandb-summary.json wandb-summary.json
+2024-02-24 18:39:34,584 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 10
+2024-02-24 18:39:34,584 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: poll_exit
+2024-02-24 18:39:34,585 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:34,585 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-24 18:39:34,586 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:34,586 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-24 18:39:34,587 INFO    SenderThread:1622 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-24 18:39:34,943 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-24 18:39:34,944 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: poll_exit
+2024-02-24 18:39:35,006 INFO    wandb-upload_0:1622 [upload_job.py:push():131] Uploaded file /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/conda-environment.yaml
+2024-02-24 18:39:35,147 INFO    wandb-upload_1:1622 [upload_job.py:push():131] Uploaded file /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/config.yaml
+2024-02-24 18:39:35,260 INFO    wandb-upload_2:1622 [upload_job.py:push():131] Uploaded file /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/output.log
+2024-02-24 18:39:35,275 INFO    wandb-upload_4:1622 [upload_job.py:push():131] Uploaded file /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/wandb-summary.json
+2024-02-24 18:39:35,282 INFO    wandb-upload_3:1622 [upload_job.py:push():131] Uploaded file /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/files/requirements.txt
+2024-02-24 18:39:35,483 INFO    Thread-11 (_thread_body):1622 [sender.py:transition_state():617] send defer: 11
+2024-02-24 18:39:35,484 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:35,484 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-24 18:39:35,485 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:35,485 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-24 18:39:35,485 INFO    SenderThread:1622 [file_pusher.py:join():178] waiting for file pusher
+2024-02-24 18:39:35,486 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 12
+2024-02-24 18:39:35,486 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:35,487 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-24 18:39:35,487 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:35,487 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-24 18:39:35,487 INFO    SenderThread:1622 [file_stream.py:finish():595] file stream finish called
+2024-02-24 18:39:35,679 INFO    SenderThread:1622 [file_stream.py:finish():599] file stream finish is done
+2024-02-24 18:39:35,680 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 13
+2024-02-24 18:39:35,680 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:35,680 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-24 18:39:35,681 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:35,681 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-24 18:39:35,682 INFO    SenderThread:1622 [sender.py:transition_state():617] send defer: 14
+2024-02-24 18:39:35,682 DEBUG   SenderThread:1622 [sender.py:send():382] send: final
+2024-02-24 18:39:35,682 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: defer
+2024-02-24 18:39:35,682 DEBUG   SenderThread:1622 [sender.py:send():382] send: footer
+2024-02-24 18:39:35,683 INFO    HandlerThread:1622 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-24 18:39:35,684 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: defer
+2024-02-24 18:39:35,684 INFO    SenderThread:1622 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-24 18:39:35,685 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-24 18:39:35,685 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-24 18:39:35,686 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: poll_exit
+2024-02-24 18:39:35,686 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: server_info
+2024-02-24 18:39:35,686 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: poll_exit
+2024-02-24 18:39:35,687 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-24 18:39:35,687 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: server_info
+2024-02-24 18:39:35,688 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-24 18:39:35,690 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:39:35,690 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: job_info
+2024-02-24 18:39:35,895 DEBUG   SenderThread:1622 [sender.py:send_request():409] send_request: job_info
+2024-02-24 18:39:35,895 INFO    MainThread:1622 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-24 18:39:35,895 INFO    MainThread:1622 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-24 18:39:35,896 INFO    MainThread:1622 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-24 18:39:35,896 DEBUG   HandlerThread:1622 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-24 18:39:35,897 INFO    HandlerThread:1622 [handler.py:finish():869] shutting down handler
+2024-02-24 18:39:36,691 INFO    WriterThread:1622 [datastore.py:close():296] close: /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/run-20240224_183923-rtp1mgqa/run-rtp1mgqa.wandb
+2024-02-24 18:39:36,895 INFO    SenderThread:1622 [sender.py:finish():1572] shutting down sender
+2024-02-24 18:39:36,896 INFO    SenderThread:1622 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-24 18:39:36,896 INFO    SenderThread:1622 [file_pusher.py:join():178] waiting for file pusher

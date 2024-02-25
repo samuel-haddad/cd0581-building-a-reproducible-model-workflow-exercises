@@ -1,0 +1,9 @@
+2024-02-24 18:41:29,997 Creating artifact
+Traceback (most recent call last):
+  File "/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/upload_artifact.py", line 55, in <module>
+    go(args)
+  File "/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/upload_artifact.py", line 23, in go
+    artifact.add_file(args.input_file)
+  File "/home/haddadsm/anaconda3/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact.py", line 1157, in add_file
+    raise ValueError("Path is not a file: %s" % local_path)
+ValueError: Path is not a file: cd0581-building-a-reproducible-model-workflow-exerciseslesson-1-machine-learning-pipelinesexercisesexercise_1starterzen.txt

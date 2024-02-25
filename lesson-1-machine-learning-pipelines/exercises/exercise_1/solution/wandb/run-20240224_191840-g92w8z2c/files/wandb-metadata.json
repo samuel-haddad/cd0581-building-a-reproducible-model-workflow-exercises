@@ -1,0 +1,137 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-02-24T22:18:41.928591",
+    "startedAt": "2024-02-24T22:18:40.771596",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_file",
+        "zen.txt",
+        "--artifact_name",
+        "cd0581-building-a-reproducible-model-workflow-exerciseslesson-1-machine-learning-pipelinesexercisesexercise_1starterzen.txt",
+        "--artifact_type",
+        "text_file",
+        "--artifact_description",
+        "20 aphorisms about writing good python code"
+    ],
+    "state": "running",
+    "program": "/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/upload_artifact.py",
+    "codePathLocal": "upload_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/upload_artifact.py",
+    "git": {
+        "remote": "git@github.com:udacity/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": "smachadd@gmail.com",
+    "root": "/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-F4NRFP3",
+    "username": "haddadsm",
+    "executable": "/home/haddadsm/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3194.044999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.045,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 13.459449768066406
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.715152740478516
+    }
+}
