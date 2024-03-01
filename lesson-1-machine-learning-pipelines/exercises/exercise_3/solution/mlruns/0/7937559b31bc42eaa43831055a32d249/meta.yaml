@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/7937559b31bc42eaa43831055a32d249/artifacts
+end_time: 1709178598302
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7937559b31bc42eaa43831055a32d249
+run_name: efficient-steed-928
+run_uuid: 7937559b31bc42eaa43831055a32d249
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709178548909
+status: 4
+tags: []
+user_id: haddadsm

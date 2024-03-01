@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/da154fea961642699ddf8b1142061fdc/artifacts
+end_time: 1709172876984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da154fea961642699ddf8b1142061fdc
+run_name: aged-fly-216
+run_uuid: da154fea961642699ddf8b1142061fdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709172873733
+status: 4
+tags: []
+user_id: haddadsm

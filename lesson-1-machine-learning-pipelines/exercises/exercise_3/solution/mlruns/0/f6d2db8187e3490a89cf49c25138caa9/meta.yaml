@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/f6d2db8187e3490a89cf49c25138caa9/artifacts
+end_time: 1709172895071
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6d2db8187e3490a89cf49c25138caa9
+run_name: traveling-kite-814
+run_uuid: f6d2db8187e3490a89cf49c25138caa9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709172891899
+status: 4
+tags: []
+user_id: haddadsm

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/712b6d4605e8485a835fac83aa8275f1/artifacts
+end_time: 1709170236642
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 712b6d4605e8485a835fac83aa8275f1
+run_name: nebulous-asp-961
+run_uuid: 712b6d4605e8485a835fac83aa8275f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709169762833
+status: 4
+tags: []
+user_id: haddadsm

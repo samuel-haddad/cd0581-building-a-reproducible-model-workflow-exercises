@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/8b7e64c8c5664200ad7ac54476cb58d1/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8b7e64c8c5664200ad7ac54476cb58d1
+run_uuid: 8b7e64c8c5664200ad7ac54476cb58d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709175656161
+status: 1
+tags: []
+user_id: haddadsm
