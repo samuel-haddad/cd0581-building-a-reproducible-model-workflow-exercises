@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/56c45638381143daa3ee0f61af9652cf/artifacts
+end_time: 1709178439472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56c45638381143daa3ee0f61af9652cf
+run_name: bald-chimp-24
+run_uuid: 56c45638381143daa3ee0f61af9652cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709178436500
+status: 4
+tags: []
+user_id: haddadsm

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/8ed6069542c54d199ac197d80759c62e/artifacts
+end_time: 1709178034001
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ed6069542c54d199ac197d80759c62e
+run_name: adaptable-hare-751
+run_uuid: 8ed6069542c54d199ac197d80759c62e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709178031104
+status: 4
+tags: []
+user_id: haddadsm

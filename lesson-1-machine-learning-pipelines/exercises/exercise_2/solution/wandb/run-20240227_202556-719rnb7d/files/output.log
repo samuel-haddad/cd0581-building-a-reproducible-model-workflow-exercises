@@ -1,0 +1,5 @@
+2024-02-27 20:26:04,187 Creating artifact
+2024-02-27 20:26:04,209 Logging artifact
+[34m[1mwandb[39m[22m: Waiting for artifact iris to be committed...
+[34m[1mwandb[39m[22m: \ 0.003 MB of 0.006 MB uploaded
+[34m[1mwandb[39m[22m: Committed artifact samuel-haddad/exercise_2/iris:v0

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/2f7fb2ab1425418fa8629f04c9ebb5c5/artifacts
+end_time: 1709174880002
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f7fb2ab1425418fa8629f04c9ebb5c5
+run_name: youthful-boar-300
+run_uuid: 2f7fb2ab1425418fa8629f04c9ebb5c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709174873540
+status: 4
+tags: []
+user_id: haddadsm
