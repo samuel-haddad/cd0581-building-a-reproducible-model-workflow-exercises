@@ -1,3 +1,6 @@
 .DS_Store
 lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/mlruns/
+lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/wandb/
 lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/
+lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/
+venv/
