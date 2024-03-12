@@ -27,4 +27,11 @@ lesson-3-data-validation/exercises/exercise_8/solution/__pycache__/
 lesson-3-data-validation/exercises/exercise_8/solution/artifacts/
 lesson-3-data-validation/exercises/exercise_8/starter/__pycache__/
 lesson-3-data-validation/exercises/exercise_8/starter/artifacts/
+lesson-3-data-validation/exercises/exercise_9/starter/__pycache__/
+lesson-3-data-validation/exercises/exercise_9/solution/__pycache__/
+lesson-3-data-validation/exercises/exercise_9/solution/artifacts/
+lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/
+lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/outputs/
+lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/artifacts/
+lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/
 venv/
