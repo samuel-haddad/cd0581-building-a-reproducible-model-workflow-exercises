@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/a9af1003f702439fa90359768ddd991a/artifacts
+end_time: 1710360220364
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9af1003f702439fa90359768ddd991a
+run_name: polite-gull-212
+run_uuid: a9af1003f702439fa90359768ddd991a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710360166988
+status: 3
+tags: []
+user_id: haddadsm

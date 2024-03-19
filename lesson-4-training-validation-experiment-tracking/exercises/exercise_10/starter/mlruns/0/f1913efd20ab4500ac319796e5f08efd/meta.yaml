@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/f1913efd20ab4500ac319796e5f08efd/artifacts
+end_time: 1710275381921
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1913efd20ab4500ac319796e5f08efd
+run_name: charming-hawk-370
+run_uuid: f1913efd20ab4500ac319796e5f08efd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710275379587
+status: 4
+tags: []
+user_id: haddadsm

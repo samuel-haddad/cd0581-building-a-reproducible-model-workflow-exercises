@@ -1,0 +1,439 @@
+2024-03-01 23:14:09,468 INFO    StreamThr :18788 [internal.py:wandb_internal():86] W&B internal server running at pid: 18788, started at: 2024-03-01 23:14:09.466922
+2024-03-01 23:14:09,470 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status
+2024-03-01 23:14:09,486 INFO    WriterThread:18788 [datastore.py:open_for_write():87] open: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\run-rznykqrr.wandb
+2024-03-01 23:14:09,487 DEBUG   SenderThread:18788 [sender.py:send():382] send: header
+2024-03-01 23:14:09,765 DEBUG   SenderThread:18788 [sender.py:send():382] send: run
+2024-03-01 23:14:10,989 INFO    SenderThread:18788 [dir_watcher.py:__init__():211] watching files in: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files
+2024-03-01 23:14:10,989 INFO    SenderThread:18788 [sender.py:_start_run_threads():1136] run started: rznykqrr with start time 1709345649.467924
+2024-03-01 23:14:11,013 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: check_version
+2024-03-01 23:14:11,014 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: check_version
+2024-03-01 23:14:12,147 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: run_start
+2024-03-01 23:14:12,247 DEBUG   HandlerThread:18788 [system_info.py:__init__():27] System info init
+2024-03-01 23:14:12,247 DEBUG   HandlerThread:18788 [system_info.py:__init__():42] System info init done
+2024-03-01 23:14:12,247 INFO    HandlerThread:18788 [system_monitor.py:start():194] Starting system monitor
+2024-03-01 23:14:12,248 INFO    SystemMonitor:18788 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-01 23:14:12,248 INFO    HandlerThread:18788 [system_monitor.py:probe():214] Collecting system info
+2024-03-01 23:14:12,256 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started cpu monitoring
+2024-03-01 23:14:12,258 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started disk monitoring
+2024-03-01 23:14:12,259 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started gpu monitoring
+2024-03-01 23:14:12,274 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started memory monitoring
+2024-03-01 23:14:12,283 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started network monitoring
+2024-03-01 23:14:12,291 DEBUG   HandlerThread:18788 [system_info.py:probe():151] Probing system
+2024-03-01 23:14:12,294 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:12,294 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:12,298 DEBUG   HandlerThread:18788 [system_info.py:_probe_git():136] Probing git
+2024-03-01 23:14:12,446 DEBUG   HandlerThread:18788 [system_info.py:_probe_git():144] Probing git done
+2024-03-01 23:14:12,446 DEBUG   HandlerThread:18788 [system_info.py:probe():199] Probing system done
+2024-03-01 23:14:12,446 DEBUG   HandlerThread:18788 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.18', 'heartbeatAt': '2024-03-02T02:14:12.291127', 'startedAt': '2024-03-02T02:14:09.450919', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises', 'commit': '8b5c537f3d332db7491160c1e1ea17c56899c42c'}, 'email': 'smachadd@gmail.com', 'root': 'D:/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises', 'host': 'DESKTOP-F4NRFP3', 'username': 'Adm', 'executable': 'c:\\ProgramData\\anaconda3\\envs\\udacity\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3200.0, 'min': 0.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 0.0, 'max': 3200.0}], 'disk': {'/': {'total': 931.4960899353027, 'used': 695.9672927856445}}, 'gpu': 'NVIDIA GeForce GTX 1050 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050 Ti', 'memory_total': 4294967296}], 'memory': {'total': 31.914241790771484}}
+2024-03-01 23:14:12,447 INFO    HandlerThread:18788 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-01 23:14:12,447 INFO    HandlerThread:18788 [system_monitor.py:probe():227] Publishing system info
+2024-03-01 23:14:12,447 DEBUG   HandlerThread:18788 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-01 23:14:13,021 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_created():271] file/dir created: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\conda-environment.yaml
+2024-03-01 23:14:14,340 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:14,340 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:16,376 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:16,377 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:18,396 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:18,396 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:19,859 DEBUG   HandlerThread:18788 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-01 23:14:19,859 DEBUG   HandlerThread:18788 [system_info.py:_save_code():45] Saving code
+2024-03-01 23:14:19,859 WARNING HandlerThread:18788 [system_info.py:_save_code():47] unable to save code -- program entry not found
+2024-03-01 23:14:19,859 DEBUG   HandlerThread:18788 [system_info.py:_save_patches():83] Saving git patches
+2024-03-01 23:14:20,082 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_modified():288] file/dir modified: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\conda-environment.yaml
+2024-03-01 23:14:20,420 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:20,420 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:21,090 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_created():271] file/dir created: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\diff.patch
+2024-03-01 23:14:21,253 DEBUG   HandlerThread:18788 [system_info.py:_save_patches():125] Saving git patches done
+2024-03-01 23:14:21,255 INFO    HandlerThread:18788 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-01 23:14:21,262 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:21,262 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-01 23:14:21,263 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:21,263 DEBUG   SenderThread:18788 [sender.py:send():382] send: files
+2024-03-01 23:14:21,263 INFO    SenderThread:18788 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-01 23:14:21,265 INFO    SenderThread:18788 [sender.py:_save_file():1403] saving file diff.patch with policy now
+2024-03-01 23:14:21,286 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-01 23:14:21,287 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: python_packages
+2024-03-01 23:14:21,287 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:14:21,288 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:14:21,289 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:14:21,292 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: pause
+2024-03-01 23:14:21,293 INFO    HandlerThread:18788 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-01 23:14:21,293 INFO    HandlerThread:18788 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-01 23:14:21,304 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-01 23:14:21,304 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-01 23:14:21,304 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-01 23:14:21,305 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined disk monitor
+2024-03-01 23:14:21,305 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-01 23:14:21,373 ERROR   gpu       :18788 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-01 23:14:21,373 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-01 23:14:21,373 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined memory monitor
+2024-03-01 23:14:21,373 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined network monitor
+2024-03-01 23:14:22,094 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_modified():288] file/dir modified: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\diff.patch
+2024-03-01 23:14:22,095 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_created():271] file/dir created: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\requirements.txt
+2024-03-01 23:14:22,095 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_created():271] file/dir created: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\wandb-metadata.json
+2024-03-01 23:14:22,666 DEBUG   SenderThread:18788 [sender.py:send():382] send: telemetry
+2024-03-01 23:14:22,667 DEBUG   SenderThread:18788 [sender.py:send():382] send: stats
+2024-03-01 23:14:23,007 INFO    wandb-upload_0:18788 [upload_job.py:push():131] Uploaded file C:\Users\Adm\AppData\Local\Temp\tmp7odfwjw5wandb\viiebs9x-wandb-metadata.json
+2024-03-01 23:14:23,985 INFO    wandb-upload_1:18788 [upload_job.py:push():131] Uploaded file C:\Users\Adm\AppData\Local\Temp\tmp7odfwjw5wandb\d9pvke0g-diff.patch
+2024-03-01 23:14:25,697 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:30,741 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:31,197 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: resume
+2024-03-01 23:14:31,197 INFO    HandlerThread:18788 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-01 23:14:31,197 INFO    HandlerThread:18788 [system_monitor.py:start():194] Starting system monitor
+2024-03-01 23:14:31,197 INFO    SystemMonitor:18788 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-01 23:14:31,209 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started cpu monitoring
+2024-03-01 23:14:31,209 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started disk monitoring
+2024-03-01 23:14:31,210 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started gpu monitoring
+2024-03-01 23:14:31,219 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started memory monitoring
+2024-03-01 23:14:31,238 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started network monitoring
+2024-03-01 23:14:31,238 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:31,238 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:33,259 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:33,260 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:34,107 DEBUG   SenderThread:18788 [sender.py:send():382] send: use_artifact
+2024-03-01 23:14:35,284 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:35,284 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:36,126 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:36,294 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:14:36,294 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:14:36,295 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:14:37,310 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:37,310 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:38,602 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: pause
+2024-03-01 23:14:38,602 INFO    HandlerThread:18788 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-01 23:14:38,602 INFO    HandlerThread:18788 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-01 23:14:38,602 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-01 23:14:38,603 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-01 23:14:38,615 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-01 23:14:38,615 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined disk monitor
+2024-03-01 23:14:38,616 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-01 23:14:38,676 ERROR   gpu       :18788 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-01 23:14:38,677 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-01 23:14:38,677 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined memory monitor
+2024-03-01 23:14:38,677 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined network monitor
+2024-03-01 23:14:38,678 DEBUG   SenderThread:18788 [sender.py:send():382] send: stats
+2024-03-01 23:14:41,716 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:42,325 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_modified():288] file/dir modified: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\config.yaml
+2024-03-01 23:14:46,447 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: resume
+2024-03-01 23:14:46,448 INFO    HandlerThread:18788 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-01 23:14:46,448 INFO    HandlerThread:18788 [system_monitor.py:start():194] Starting system monitor
+2024-03-01 23:14:46,449 INFO    SystemMonitor:18788 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-01 23:14:46,462 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started cpu monitoring
+2024-03-01 23:14:46,463 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started disk monitoring
+2024-03-01 23:14:46,464 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started gpu monitoring
+2024-03-01 23:14:46,477 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started memory monitoring
+2024-03-01 23:14:46,488 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:46,504 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started network monitoring
+2024-03-01 23:14:46,504 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:14:46,504 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: pause
+2024-03-01 23:14:46,505 INFO    HandlerThread:18788 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-01 23:14:46,505 INFO    HandlerThread:18788 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-01 23:14:46,505 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-01 23:14:46,519 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined disk monitor
+2024-03-01 23:14:46,519 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-01 23:14:46,520 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-01 23:14:46,520 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-01 23:14:46,580 ERROR   gpu       :18788 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-01 23:14:46,580 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-01 23:14:46,581 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined memory monitor
+2024-03-01 23:14:46,581 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined network monitor
+2024-03-01 23:14:46,581 DEBUG   SenderThread:18788 [sender.py:send():382] send: stats
+2024-03-01 23:14:46,835 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: resume
+2024-03-01 23:14:46,835 INFO    HandlerThread:18788 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-01 23:14:46,835 INFO    HandlerThread:18788 [system_monitor.py:start():194] Starting system monitor
+2024-03-01 23:14:46,835 INFO    SystemMonitor:18788 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-01 23:14:46,847 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started cpu monitoring
+2024-03-01 23:14:46,848 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: pause
+2024-03-01 23:14:46,848 INFO    HandlerThread:18788 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-01 23:14:46,848 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started disk monitoring
+2024-03-01 23:14:46,848 INFO    HandlerThread:18788 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-01 23:14:46,849 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started gpu monitoring
+2024-03-01 23:14:46,850 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-01 23:14:46,850 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-01 23:14:46,850 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined disk monitor
+2024-03-01 23:14:46,850 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-01 23:14:46,851 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-01 23:14:46,851 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-01 23:14:46,853 DEBUG   SenderThread:18788 [sender.py:send():382] send: stats
+2024-03-01 23:14:47,859 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:51,300 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:14:51,315 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:14:51,316 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:14:53,538 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:14:58,600 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:03,667 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:06,306 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:15:06,323 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:15:06,323 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:15:09,625 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:14,643 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:19,684 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:21,314 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:15:21,343 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:15:21,344 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:15:25,599 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:30,632 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:35,662 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:36,321 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:15:36,352 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:15:36,353 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:15:41,595 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:46,627 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:51,329 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:15:51,361 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:15:51,362 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:15:51,646 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:15:56,688 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:01,716 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:06,334 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:16:06,380 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:16:06,381 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:16:07,661 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:12,710 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:13,329 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: resume
+2024-03-01 23:16:13,329 INFO    HandlerThread:18788 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-01 23:16:13,329 INFO    HandlerThread:18788 [system_monitor.py:start():194] Starting system monitor
+2024-03-01 23:16:13,330 INFO    SystemMonitor:18788 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-01 23:16:13,339 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started cpu monitoring
+2024-03-01 23:16:13,340 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started disk monitoring
+2024-03-01 23:16:13,341 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started gpu monitoring
+2024-03-01 23:16:13,359 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started memory monitoring
+2024-03-01 23:16:13,376 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started network monitoring
+2024-03-01 23:16:13,376 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:13,376 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:15,395 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:15,395 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:17,418 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:17,418 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:17,758 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:19,443 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:19,444 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:21,344 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:16:21,390 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:16:21,390 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:16:21,480 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:21,480 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:23,501 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:23,502 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:23,687 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:25,518 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:25,518 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:27,540 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:27,541 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:28,721 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:29,567 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:29,567 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:31,583 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:31,583 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:33,600 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:33,600 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:33,756 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:35,618 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:35,618 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:36,362 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:16:36,377 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:16:36,378 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:16:37,648 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:37,648 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:39,666 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:39,666 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:39,667 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:41,684 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:41,685 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:43,759 ERROR   gpu       :18788 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-01 23:16:43,764 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:43,764 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:44,703 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:45,771 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:45,772 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:47,788 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:47,788 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:49,760 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:16:49,797 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:49,797 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:51,415 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:16:51,508 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:16:51,508 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:16:51,814 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:51,814 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:53,831 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:53,831 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:16:55,424 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: pause
+2024-03-01 23:16:55,424 INFO    HandlerThread:18788 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-01 23:16:55,424 INFO    HandlerThread:18788 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-01 23:16:55,424 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-01 23:16:55,425 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-01 23:16:55,426 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-01 23:16:55,438 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined disk monitor
+2024-03-01 23:16:55,438 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-01 23:16:55,502 ERROR   gpu       :18788 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-01 23:16:55,503 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-01 23:16:55,503 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined memory monitor
+2024-03-01 23:16:55,503 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined network monitor
+2024-03-01 23:16:55,504 DEBUG   SenderThread:18788 [sender.py:send():382] send: stats
+2024-03-01 23:16:55,506 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:17:00,540 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:17:05,588 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:17:06,410 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:17:06,442 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-01 23:17:06,443 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: stop_status
+2024-03-01 23:17:10,714 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:17:15,754 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:17:17,547 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: resume
+2024-03-01 23:17:17,547 INFO    HandlerThread:18788 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-01 23:17:17,547 INFO    HandlerThread:18788 [system_monitor.py:start():194] Starting system monitor
+2024-03-01 23:17:17,547 INFO    SystemMonitor:18788 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-01 23:17:17,557 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started cpu monitoring
+2024-03-01 23:17:17,558 DEBUG   SenderThread:18788 [sender.py:send():382] send: telemetry
+2024-03-01 23:17:17,558 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started disk monitoring
+2024-03-01 23:17:17,559 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started gpu monitoring
+2024-03-01 23:17:17,574 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started memory monitoring
+2024-03-01 23:17:17,584 INFO    SystemMonitor:18788 [interfaces.py:start():190] Started network monitoring
+2024-03-01 23:17:17,585 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:17:17,585 ERROR   gpu       :18788 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-03-01 23:17:17,925 DEBUG   SenderThread:18788 [sender.py:send():382] send: config
+2024-03-01 23:17:18,312 DEBUG   SenderThread:18788 [sender.py:send():382] send: exit
+2024-03-01 23:17:18,312 INFO    SenderThread:18788 [sender.py:send_exit():589] handling exit code: 0
+2024-03-01 23:17:18,312 INFO    SenderThread:18788 [sender.py:send_exit():591] handling runtime: 59
+2024-03-01 23:17:18,315 INFO    SenderThread:18788 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-01 23:17:18,316 INFO    SenderThread:18788 [sender.py:send_exit():597] send defer
+2024-03-01 23:17:18,317 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,317 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-01 23:17:18,317 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,317 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-01 23:17:18,317 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 1
+2024-03-01 23:17:18,317 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,318 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-01 23:17:18,318 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,318 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-01 23:17:18,318 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 2
+2024-03-01 23:17:18,318 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,318 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-01 23:17:18,318 INFO    HandlerThread:18788 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-01 23:17:18,319 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-01 23:17:18,319 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-01 23:17:18,330 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined disk monitor
+2024-03-01 23:17:18,330 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-01 23:17:18,331 DEBUG   SystemMonitor:18788 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-01 23:17:18,385 ERROR   gpu       :18788 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-03-01 23:17:18,385 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-01 23:17:18,385 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined memory monitor
+2024-03-01 23:17:18,386 INFO    HandlerThread:18788 [interfaces.py:finish():202] Joined network monitor
+2024-03-01 23:17:18,386 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,386 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-01 23:17:18,386 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 3
+2024-03-01 23:17:18,387 DEBUG   SenderThread:18788 [sender.py:send():382] send: stats
+2024-03-01 23:17:18,387 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,387 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-01 23:17:18,387 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,388 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-01 23:17:18,388 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 4
+2024-03-01 23:17:18,388 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,388 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-01 23:17:18,388 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,388 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-01 23:17:18,388 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 5
+2024-03-01 23:17:18,388 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,389 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-01 23:17:18,389 DEBUG   SenderThread:18788 [sender.py:send():382] send: summary
+2024-03-01 23:17:18,390 INFO    SenderThread:18788 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-01 23:17:18,391 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,391 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-01 23:17:18,391 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 6
+2024-03-01 23:17:18,391 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,392 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-01 23:17:18,392 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,392 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-01 23:17:18,398 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: status_report
+2024-03-01 23:17:18,554 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_created():271] file/dir created: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\wandb-summary.json
+2024-03-01 23:17:18,555 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_created():271] file/dir created: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\code\_session_history.ipynb
+2024-03-01 23:17:18,555 INFO    Thread-16 :18788 [dir_watcher.py:_on_file_created():271] file/dir created: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\code
+2024-03-01 23:17:18,603 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 7
+2024-03-01 23:17:18,604 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,604 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-01 23:17:18,604 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,604 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-01 23:17:18,604 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 8
+2024-03-01 23:17:18,604 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,605 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-01 23:17:18,605 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,605 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-01 23:17:18,605 INFO    SenderThread:18788 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-01 23:17:18,606 INFO    SenderThread:18788 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-01 23:17:18,606 INFO    SenderThread:18788 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-03-01 23:17:18,606 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 9
+2024-03-01 23:17:18,606 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:18,607 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-01 23:17:18,607 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:18,607 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-01 23:17:18,607 INFO    SenderThread:18788 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-01 23:17:19,319 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-01 23:17:19,572 INFO    SenderThread:18788 [dir_watcher.py:_on_file_modified():288] file/dir modified: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\config.yaml
+2024-03-01 23:17:19,573 INFO    SenderThread:18788 [dir_watcher.py:finish():388] scan: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files
+2024-03-01 23:17:19,573 INFO    SenderThread:18788 [dir_watcher.py:finish():402] scan save: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\conda-environment.yaml conda-environment.yaml
+2024-03-01 23:17:19,574 INFO    SenderThread:18788 [dir_watcher.py:finish():402] scan save: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\config.yaml config.yaml
+2024-03-01 23:17:19,578 INFO    SenderThread:18788 [dir_watcher.py:finish():402] scan save: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\diff.patch diff.patch
+2024-03-01 23:17:19,578 INFO    SenderThread:18788 [dir_watcher.py:finish():402] scan save: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\requirements.txt requirements.txt
+2024-03-01 23:17:19,582 INFO    SenderThread:18788 [dir_watcher.py:finish():402] scan save: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\wandb-metadata.json wandb-metadata.json
+2024-03-01 23:17:19,583 INFO    SenderThread:18788 [dir_watcher.py:finish():402] scan save: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\wandb-summary.json wandb-summary.json
+2024-03-01 23:17:19,590 INFO    SenderThread:18788 [dir_watcher.py:finish():402] scan save: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\code\_session_history.ipynb code/_session_history.ipynb
+2024-03-01 23:17:19,592 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 10
+2024-03-01 23:17:19,592 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: poll_exit
+2024-03-01 23:17:19,592 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:19,593 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-01 23:17:19,596 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:19,596 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-01 23:17:19,596 INFO    SenderThread:18788 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-01 23:17:20,018 INFO    wandb-upload_1:18788 [upload_job.py:push():131] Uploaded file d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\config.yaml
+2024-03-01 23:17:20,046 INFO    wandb-upload_0:18788 [upload_job.py:push():131] Uploaded file d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\conda-environment.yaml
+2024-03-01 23:17:20,327 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-01 23:17:20,328 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: poll_exit
+2024-03-01 23:17:21,343 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-01 23:17:21,344 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: poll_exit
+2024-03-01 23:17:21,800 INFO    wandb-upload_2:18788 [upload_job.py:push():131] Uploaded file d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\requirements.txt
+2024-03-01 23:17:21,864 INFO    wandb-upload_3:18788 [upload_job.py:push():131] Uploaded file d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\wandb-summary.json
+2024-03-01 23:17:22,356 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-01 23:17:22,357 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: poll_exit
+2024-03-01 23:17:22,650 INFO    wandb-upload_4:18788 [upload_job.py:push():131] Uploaded file d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\files\code\_session_history.ipynb
+2024-03-01 23:17:22,862 INFO    Thread-15 :18788 [sender.py:transition_state():617] send defer: 11
+2024-03-01 23:17:22,862 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:22,862 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-01 23:17:22,863 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:22,863 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-01 23:17:22,863 INFO    SenderThread:18788 [file_pusher.py:join():178] waiting for file pusher
+2024-03-01 23:17:22,864 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 12
+2024-03-01 23:17:22,864 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:22,864 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-01 23:17:22,865 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:22,865 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-01 23:17:22,865 INFO    SenderThread:18788 [file_stream.py:finish():595] file stream finish called
+2024-03-01 23:17:23,362 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-01 23:17:23,415 INFO    SenderThread:18788 [file_stream.py:finish():599] file stream finish is done
+2024-03-01 23:17:23,416 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 13
+2024-03-01 23:17:23,416 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: poll_exit
+2024-03-01 23:17:23,416 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:23,416 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-01 23:17:23,416 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:23,417 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-01 23:17:23,417 INFO    SenderThread:18788 [sender.py:transition_state():617] send defer: 14
+2024-03-01 23:17:23,417 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: defer
+2024-03-01 23:17:23,417 DEBUG   SenderThread:18788 [sender.py:send():382] send: final
+2024-03-01 23:17:23,417 INFO    HandlerThread:18788 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-01 23:17:23,417 DEBUG   SenderThread:18788 [sender.py:send():382] send: footer
+2024-03-01 23:17:23,418 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: defer
+2024-03-01 23:17:23,418 INFO    SenderThread:18788 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-01 23:17:23,419 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-01 23:17:23,419 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: poll_exit
+2024-03-01 23:17:23,420 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-01 23:17:23,421 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: server_info
+2024-03-01 23:17:23,421 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-01 23:17:23,421 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-01 23:17:23,422 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: server_info
+2024-03-01 23:17:23,422 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: job_info
+2024-03-01 23:17:23,597 DEBUG   SenderThread:18788 [sender.py:send_request():409] send_request: job_info
+2024-03-01 23:17:23,599 DEBUG   HandlerThread:18788 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-01 23:17:23,599 INFO    HandlerThread:18788 [handler.py:finish():869] shutting down handler
+2024-03-01 23:17:24,438 INFO    WriterThread:18788 [datastore.py:close():296] close: d:\OneDrive\Desktop\samuel-haddad\cd0581-building-a-reproducible-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_4\starter\wandb\run-20240301_231409-rznykqrr\run-rznykqrr.wandb
+2024-03-01 23:17:24,611 INFO    SenderThread:18788 [sender.py:finish():1572] shutting down sender
+2024-03-01 23:17:24,611 INFO    SenderThread:18788 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-01 23:17:24,611 INFO    SenderThread:18788 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/mlruns/0/84caf680376a4990bd057a645e05cc8b/artifacts
+end_time: 1709680990108
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 84caf680376a4990bd057a645e05cc8b
+run_name: zealous-mouse-691
+run_uuid: 84caf680376a4990bd057a645e05cc8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709680528125
+status: 4
+tags: []
+user_id: haddadsm

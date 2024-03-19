@@ -1,0 +1,26 @@
+2024-03-05 22:36:40 ERROR Traceback (most recent call last):
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public/api.py", line 958, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/sdk/artifacts/artifact.py", line 254, in _from_name
+    raise ValueError(
+ValueError: Unable to fetch artifact with name samuel-haddad/exercise_5/preprocessed_data.csv:latest
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/cli/cli.py", line 105, in wrapper
+    return func(*args, **kwargs)
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/cli/cli.py", line 2420, in get
+    artifact = public_api.artifact(full_path, type=type)
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/apis/public/api.py", line 958, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/home/haddadsm/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/sdk/artifacts/artifact.py", line 254, in _from_name
+    raise ValueError(
+wandb.errors.CommError: Unable to fetch artifact with name samuel-haddad/exercise_5/preprocessed_data.csv:latest
+

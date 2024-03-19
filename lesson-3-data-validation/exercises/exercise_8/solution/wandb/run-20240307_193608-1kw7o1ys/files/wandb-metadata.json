@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-03-07T22:36:10.015285",
+    "startedAt": "2024-03-07T22:36:08.634639",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        "."
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises",
+        "commit": "c50d0af44f9569757d5f6d0b023c636090343a3e"
+    },
+    "email": "smachadd@gmail.com",
+    "root": "/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-F4NRFP3",
+    "username": "haddadsm",
+    "executable": "/home/haddadsm/miniconda3/envs/mlflow-b31949b48e7fabe0e9f3fe8074212013880f8c7e/bin/python"
+}

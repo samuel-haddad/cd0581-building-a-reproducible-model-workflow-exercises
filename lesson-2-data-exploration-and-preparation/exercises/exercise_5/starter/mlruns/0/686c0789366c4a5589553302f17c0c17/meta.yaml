@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/686c0789366c4a5589553302f17c0c17/artifacts
+end_time: 1709691728105
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 686c0789366c4a5589553302f17c0c17
+run_name: respected-worm-521
+run_uuid: 686c0789366c4a5589553302f17c0c17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709691675928
+status: 4
+tags: []
+user_id: haddadsm

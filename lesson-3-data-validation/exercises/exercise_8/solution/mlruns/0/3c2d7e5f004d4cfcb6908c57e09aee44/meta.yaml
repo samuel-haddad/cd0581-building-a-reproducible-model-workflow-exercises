@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/solution/mlruns/0/3c2d7e5f004d4cfcb6908c57e09aee44/artifacts
+end_time: 1709850976529
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c2d7e5f004d4cfcb6908c57e09aee44
+run_name: grandiose-cow-434
+run_uuid: 3c2d7e5f004d4cfcb6908c57e09aee44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709850964818
+status: 4
+tags: []
+user_id: haddadsm

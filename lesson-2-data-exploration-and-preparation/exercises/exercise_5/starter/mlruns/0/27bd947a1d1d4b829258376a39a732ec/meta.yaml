@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/27bd947a1d1d4b829258376a39a732ec/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27bd947a1d1d4b829258376a39a732ec
+run_name: resilient-lark-973
+run_uuid: 27bd947a1d1d4b829258376a39a732ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709690449414
+status: 1
+tags: []
+user_id: haddadsm

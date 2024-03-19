@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/solution/mlruns/0/b0d100d0a03144dd907ec3314a56f12b/artifacts
+end_time: 1710262132338
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b0d100d0a03144dd907ec3314a56f12b
+run_name: charming-dolphin-344
+run_uuid: b0d100d0a03144dd907ec3314a56f12b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710262120433
+status: 4
+tags: []
+user_id: haddadsm

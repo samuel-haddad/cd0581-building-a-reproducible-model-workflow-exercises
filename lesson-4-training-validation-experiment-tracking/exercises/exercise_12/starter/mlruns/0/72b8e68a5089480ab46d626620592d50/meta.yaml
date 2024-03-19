@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/72b8e68a5089480ab46d626620592d50/artifacts
+end_time: 1710442634115
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72b8e68a5089480ab46d626620592d50
+run_name: painted-eel-988
+run_uuid: 72b8e68a5089480ab46d626620592d50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710442612196
+status: 4
+tags: []
+user_id: haddadsm

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/9e96862e679c45f88d1899946b8c2970/artifacts
+end_time: 1710262244144
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e96862e679c45f88d1899946b8c2970
+run_name: handsome-lark-479
+run_uuid: 9e96862e679c45f88d1899946b8c2970
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710262231505
+status: 4
+tags: []
+user_id: haddadsm

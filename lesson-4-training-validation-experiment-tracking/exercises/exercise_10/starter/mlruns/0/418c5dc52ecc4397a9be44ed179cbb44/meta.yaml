@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/418c5dc52ecc4397a9be44ed179cbb44/artifacts
+end_time: 1710275474891
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 418c5dc52ecc4397a9be44ed179cbb44
+run_name: stately-grouse-370
+run_uuid: 418c5dc52ecc4397a9be44ed179cbb44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710275472526
+status: 4
+tags: []
+user_id: haddadsm

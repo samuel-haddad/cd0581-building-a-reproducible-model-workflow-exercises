@@ -1,0 +1,5 @@
+2024-03-13 17:17:56,839 Downloading and reading train artifact
+2024-03-13 17:17:58,074 Extracting target from dataframe
+2024-03-13 17:17:58,078 Splitting train/val
+2024-03-13 17:17:58,104 Setting up pipeline
+2024-03-13 17:17:58,131 Fitting

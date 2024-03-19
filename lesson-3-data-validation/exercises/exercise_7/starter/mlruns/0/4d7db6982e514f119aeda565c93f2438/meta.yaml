@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/4d7db6982e514f119aeda565c93f2438/artifacts
+end_time: 1709769404797
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d7db6982e514f119aeda565c93f2438
+run_name: dazzling-squid-938
+run_uuid: 4d7db6982e514f119aeda565c93f2438
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709769392628
+status: 3
+tags: []
+user_id: haddadsm

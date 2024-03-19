@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/02b3f4bda6974dc1bcc5a546189bfe19/artifacts
+end_time: 1709735430823
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 02b3f4bda6974dc1bcc5a546189bfe19
+run_name: bedecked-shark-586
+run_uuid: 02b3f4bda6974dc1bcc5a546189bfe19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709735383141
+status: 3
+tags: []
+user_id: haddadsm

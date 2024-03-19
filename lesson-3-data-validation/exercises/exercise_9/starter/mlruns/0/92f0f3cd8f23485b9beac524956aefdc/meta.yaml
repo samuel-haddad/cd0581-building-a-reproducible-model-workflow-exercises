@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/92f0f3cd8f23485b9beac524956aefdc/artifacts
+end_time: 1710262362403
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92f0f3cd8f23485b9beac524956aefdc
+run_name: incongruous-fox-294
+run_uuid: 92f0f3cd8f23485b9beac524956aefdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710262349068
+status: 4
+tags: []
+user_id: haddadsm

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ea26a78beae046338714b09ebd35007f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: ea26a78beae046338714b09ebd35007f
+run_uuid: ea26a78beae046338714b09ebd35007f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710361067862
+status: 1
+tags: []
+user_id: haddadsm

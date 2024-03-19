@@ -1,0 +1,29 @@
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/latest-run b/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/latest-run
+deleted file mode 120000
+index 73620a2..0000000
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_1/solution/wandb/latest-run
++++ /dev/null
+@@ -1 +0,0 @@
+-run-20240224_193908-7jorhmri
+\ No newline at end of file
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_2/solution/wandb/latest-run b/lesson-1-machine-learning-pipelines/exercises/exercise_2/solution/wandb/latest-run
+deleted file mode 120000
+index 50e8fda..0000000
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_2/solution/wandb/latest-run
++++ /dev/null
+@@ -1 +0,0 @@
+-run-20240227_202556-719rnb7d
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/EDA.ipynb b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/EDA.ipynb
+index 5f3475f..e53aebc 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/EDA.ipynb
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/EDA.ipynb
+@@ -152706,7 +152706,7 @@
+    "name": "python",
+    "nbconvert_exporter": "python",
+    "pygments_lexer": "ipython3",
+-   "version": "3.9.15"
++   "version": "3.8.18"
+   },
+   "widgets": {
+    "application/vnd.jupyter.widget-state+json": {

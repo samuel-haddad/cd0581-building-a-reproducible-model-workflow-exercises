@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/47087ad63772444a92f99fd8be405bf9/artifacts
+end_time: 1709768553208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47087ad63772444a92f99fd8be405bf9
+run_name: able-kit-694
+run_uuid: 47087ad63772444a92f99fd8be405bf9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709768539497
+status: 4
+tags: []
+user_id: haddadsm

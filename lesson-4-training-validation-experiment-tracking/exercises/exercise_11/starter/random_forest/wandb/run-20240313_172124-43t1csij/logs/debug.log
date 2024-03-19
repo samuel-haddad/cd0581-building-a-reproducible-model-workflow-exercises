@@ -1,0 +1,28 @@
+2024-03-13 17:21:24,966 INFO    MainThread:92135 [wandb_setup.py:_flush():69] setting env: {'run_group': 'dev', 'project': 'exercise_11'}
+2024-03-13 17:21:24,968 INFO    MainThread:92135 [wandb_setup.py:_flush():69] setting login settings: {}
+2024-03-13 17:21:24,969 INFO    MainThread:92135 [wandb_init.py:_log_setup():334] Logging user logs to /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240313_172124-43t1csij/logs/debug.log
+2024-03-13 17:21:24,970 INFO    MainThread:92135 [wandb_init.py:_log_setup():335] Logging internal logs to /mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240313_172124-43t1csij/logs/debug-internal.log
+2024-03-13 17:21:24,972 INFO    MainThread:92135 [wandb_init.py:init():367] calling init triggers
+2024-03-13 17:21:24,972 INFO    MainThread:92135 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2024-03-13 17:21:24,973 INFO    MainThread:92135 [wandb_init.py:init():416] starting backend
+2024-03-13 17:21:24,974 INFO    MainThread:92135 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-13 17:21:24,992 INFO    MainThread:92135 [backend.py:ensure_launched():123] starting backend process...
+2024-03-13 17:21:24,998 INFO    MainThread:92135 [backend.py:ensure_launched():127] started backend process with pid: 92323
+2024-03-13 17:21:25,002 INFO    MainThread:92135 [wandb_init.py:init():421] backend started and connected
+2024-03-13 17:21:25,007 INFO    MainThread:92135 [wandb_init.py:init():461] updated telemetry
+2024-03-13 17:21:25,008 INFO    MainThread:92135 [wandb_init.py:init():480] communicating current version
+2024-03-13 17:21:26,257 INFO    MainThread:92135 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.16.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-13 17:21:26,258 INFO    MainThread:92135 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2024-03-13 17:21:26,810 INFO    MainThread:92135 [wandb_init.py:init():518] starting run threads in backend
+2024-03-13 17:21:27,080 INFO    MainThread:92135 [wandb_run.py:_console_start():1476] atexit reg
+2024-03-13 17:21:27,092 INFO    MainThread:92135 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.REDIRECT
+2024-03-13 17:21:27,094 INFO    MainThread:92135 [wandb_run.py:_redirect():1344] Redirecting console.
+2024-03-13 17:21:27,095 INFO    MainThread:92135 [redirect.py:install():213] install start
+2024-03-13 17:21:27,097 INFO    MainThread:92135 [redirect.py:install():228] install stop
+2024-03-13 17:21:27,098 INFO    MainThread:92135 [redirect.py:install():213] install start
+2024-03-13 17:21:27,100 INFO    MainThread:92135 [redirect.py:install():228] install stop
+2024-03-13 17:21:27,101 INFO    MainThread:92135 [wandb_run.py:_redirect():1390] Redirects installed.
+2024-03-13 17:21:27,102 INFO    MainThread:92135 [wandb_init.py:init():542] run started, returning control to user process
+2024-03-13 17:21:28,517 INFO    MainThread:92135 [wandb_run.py:_config_callback():733] config_cb None None {'random_forest': {'n_estimators': 100, 'criterion': 'gini', 'max_depth': 13, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.0, 'max_features': 'auto', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'bootstrap': True, 'oob_score': False, 'n_jobs': None, 'random_state': None, 'verbose': 0, 'warm_start': False, 'class_weight': 'balanced', 'ccp_alpha': 0.0, 'max_samples': None}, 'tfidf': {'max_features': 50}, 'features': {'numerical': ['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'], 'categorical': ['time_signature', 'key'], 'nlp': ['text_feature']}}

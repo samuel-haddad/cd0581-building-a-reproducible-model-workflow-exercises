@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/solution/mlruns/0/e32f1decfe7b4b829289062611fa8e3c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e32f1decfe7b4b829289062611fa8e3c
+run_name: legendary-shark-358
+run_uuid: e32f1decfe7b4b829289062611fa8e3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710262083956
+status: 1
+tags: []
+user_id: haddadsm

@@ -1,0 +1,137 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-02T01:45:13.812641",
+    "startedAt": "2024-03-02T01:45:12.848264",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "artifact",
+        "put",
+        "--name",
+        "exercise_4/genres_mod.parquet",
+        "--type",
+        "raw_data",
+        "--description",
+        "A modified version of the songs dataset",
+        "genres_mod.parquet"
+    ],
+    "state": "running",
+    "program": "/home/haddadsm/anaconda3/bin/wandb",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises",
+        "commit": "8b5c537f3d332db7491160c1e1ea17c56899c42c"
+    },
+    "email": "smachadd@gmail.com",
+    "root": "/mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-F4NRFP3",
+    "username": "haddadsm",
+    "executable": "/home/haddadsm/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3194.046999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3194.047,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 19.307640075683594
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.57843017578125
+    }
+}

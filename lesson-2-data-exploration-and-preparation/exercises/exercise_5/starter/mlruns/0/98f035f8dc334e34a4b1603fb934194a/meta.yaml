@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/98f035f8dc334e34a4b1603fb934194a/artifacts
+end_time: 1709690609376
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98f035f8dc334e34a4b1603fb934194a
+run_name: youthful-grub-498
+run_uuid: 98f035f8dc334e34a4b1603fb934194a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709690566300
+status: 4
+tags: []
+user_id: haddadsm

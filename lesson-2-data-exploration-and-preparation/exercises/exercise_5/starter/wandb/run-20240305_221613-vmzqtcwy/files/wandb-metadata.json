@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-03-06T01:16:16.322034",
+    "startedAt": "2024-03-06T01:16:13.769677",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises",
+        "commit": "e220e2473b03f59b6dabce5d92273300668584ac"
+    },
+    "email": "smachadd@gmail.com",
+    "root": "D:/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-F4NRFP3",
+    "username": "Adm",
+    "executable": "c:\\ProgramData\\anaconda3\\envs\\udacity\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3200.0,
+        "min": 0.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 0.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.4960899353027,
+            "used": 701.6442947387695
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 31.914241790771484
+    }
+}

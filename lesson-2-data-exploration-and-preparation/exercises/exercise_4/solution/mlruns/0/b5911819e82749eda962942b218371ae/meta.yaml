@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/mlruns/0/b5911819e82749eda962942b218371ae/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b5911819e82749eda962942b218371ae
+run_name: legendary-zebra-386
+run_uuid: b5911819e82749eda962942b218371ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709681004107
+status: 1
+tags: []
+user_id: haddadsm

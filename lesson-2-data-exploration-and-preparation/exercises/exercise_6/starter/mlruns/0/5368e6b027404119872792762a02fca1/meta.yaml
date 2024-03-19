@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/5368e6b027404119872792762a02fca1/artifacts
+end_time: 1709734919842
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5368e6b027404119872792762a02fca1
+run_name: amazing-stork-471
+run_uuid: 5368e6b027404119872792762a02fca1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709734916674
+status: 4
+tags: []
+user_id: haddadsm

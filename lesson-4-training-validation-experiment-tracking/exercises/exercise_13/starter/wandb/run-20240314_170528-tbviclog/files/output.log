@@ -1,0 +1,5 @@
+2024-03-14 17:05:30,068 Downloading and reading test artifact
+2024-03-14 17:05:31,231 Extracting target from dataframe
+2024-03-14 17:05:31,233 Downloading and reading the exported model
+2024-03-14 17:05:32,883 Scoring
+2024-03-14 17:05:33,040 Computing confusion matrix

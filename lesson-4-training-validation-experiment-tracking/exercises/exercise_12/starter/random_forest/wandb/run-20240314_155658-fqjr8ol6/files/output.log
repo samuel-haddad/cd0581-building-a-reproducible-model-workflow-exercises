@@ -1,0 +1,18 @@
+2024-03-14 15:56:59,684 Downloading and reading train artifact
+2024-03-14 15:57:06,505 Extracting target from dataframe
+2024-03-14 15:57:06,509 Splitting train/val
+2024-03-14 15:57:06,537 Setting up pipeline
+2024-03-14 15:57:06,546 Fitting
+2024-03-14 15:57:09,952 Scoring
+/home/haddadsm/miniconda3/envs/mlflow-ec174eac666b6bd47906f0a7c8c6bb31f5cc7b55/lib/python3.8/site-packages/mlflow/models/signature.py:123: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  inputs = _infer_schema(model_input)
+Traceback (most recent call last):
+  File "run.py", line 242, in <module>
+    go(args)
+  File "run.py", line 64, in go
+    export_model(run, pipe, X_val, pred, args.export_artifact)
+  File "run.py", line 126, in export_model
+    artifact.add_dir(export_artifact)
+  File "/home/haddadsm/miniconda3/envs/mlflow-ec174eac666b6bd47906f0a7c8c6bb31f5cc7b55/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 331, in add_dir
+    raise ValueError("Path is not a directory: %s" % local_path)
+ValueError: Path is not a directory: model_export

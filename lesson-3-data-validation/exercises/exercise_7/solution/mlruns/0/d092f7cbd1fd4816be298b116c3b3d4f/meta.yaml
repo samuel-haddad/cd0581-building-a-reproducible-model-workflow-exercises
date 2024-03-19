@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/OneDrive/Desktop/samuel-haddad/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_7/solution/mlruns/0/d092f7cbd1fd4816be298b116c3b3d4f/artifacts
+end_time: 1709769163788
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d092f7cbd1fd4816be298b116c3b3d4f
+run_name: awesome-zebra-925
+run_uuid: d092f7cbd1fd4816be298b116c3b3d4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709769160268
+status: 4
+tags: []
+user_id: haddadsm
