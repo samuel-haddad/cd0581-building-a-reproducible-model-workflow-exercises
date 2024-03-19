@@ -43,4 +43,7 @@ lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/m
 lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/multirun/
 lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/artifacts/
 lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/wandb/
+lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/artifacts/
+lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/
+lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/
 venv/
